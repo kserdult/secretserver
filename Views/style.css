@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  min-width: 100vw;
+  min-height: 100vh;
+  background: rgb(186, 186, 186);
+}
+button {
+  border: none;
+  padding: 3rem;
+  font-size: 1.3rem;
+  text-align: center;
+  transition-duration: 0.45s;
+  cursor: pointer;
+  margin: 5rem;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+h1 {
+  padding: 1rem 5rem 0;
+}
+ul {
+  margin-left: 3rem;
+  list-style-type: none;
+}
+.title {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
